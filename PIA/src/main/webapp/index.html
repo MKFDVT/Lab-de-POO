@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Registro de libro</h1>
+        <form action="registro" method="post">
+            
+            <label for="nom">Nombre:</label><br>
+            <input type="text" id="nom" name="nom"><br>
+            <label for="edi">Edicion:(Si tiene)</label><br>
+            <input type="text" id="edi" name="edi"><br><br>
+            <label for="au">Autor:</label><br>
+            <input type="text" id="au" name="au"><br>
+            <label for="ide">ID:(Obligatorio)</label><br>
+            <input type="text" id="ide" name="ide"><br><br>
+            
+            <input type="submit" value="Submit">
+        </form> 
+        
+        <h2>Borrar libro</h2>
+        <form action="borrado" method="post">
+            
+            <label for="ide">ID:</label><br>
+            <input type="text" id="iddel" name="iddel"><br><br>
+            
+            <input type="submit" id="removeBtnGER" value="Remove Entry">
+        </form> 
+        <h3>Actulizar libro</h3>
+        <form action="actualizado" method="post">
+            
+            <label for="ide">ID:</label><br>
+            <input type="text" id="ida" name="ida"><br><br>
+            <label for="edi">Nueva Edicion:</label><br>
+            <input type="text" id="eda" name="eda"><br><br>
+            
+            <input type="submit" id="updeateBtnGER" value="Submit">
+        </form> 
+        
+        
+    </body>
+</html>

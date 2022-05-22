@@ -1,0 +1,5 @@
+controles\DBConnection.class
+controles\registro.class
+controles\actualizado.class
+controles\borrado.class
+modelo\articulos.class
